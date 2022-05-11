@@ -1,13 +1,8 @@
-/* Font */
-@font-face {
-  font-family: "times-new-roman";
-  src: url("/fonts/times-new-roman.ttf");
-}
-
 /* Basic rules */
 body {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 /*           Mobile-first                 */
 /* NAVBAR */
@@ -16,14 +11,45 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 25px;
-  margin-top: 25px;
+  margin-left: 32px;
+  margin-top: 32px;
 }
 
-.logo {
-  width: 55%;
-}
 .burger {
   color: grey;
-  margin-right: 25px;
+  margin-right: 32px;
+}
+
+/* INTRODUCTION SECTION */
+
+.introduction {
+  margin-left: 25px;
+  padding-top: 70px;
+  position: relative;
+}
+.text-container {
+  width: 300px;
+}
+.text-container > h4 {
+  color: #ff3998;
+  letter-spacing: 1.2px;
+  font-weight: medium;
+  padding-top: 30px;
+}
+.text-container > p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.text-container > h1 {
+  color: #111111;
+  font-weight: 800;
+  font-size: 40px;
+}
+.graphic-img {
+  width: 130%;
+  height: 130%;
+  position: absolute;
+  left: 120px;
+  top: -35px;
 }
