@@ -1,0 +1,29 @@
+/* Font */
+@font-face {
+  font-family: "times-new-roman";
+  src: url("/fonts/times-new-roman.ttf");
+}
+
+/* Basic rules */
+body {
+  margin: 0;
+  padding: 0;
+}
+/*           Mobile-first                 */
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 55%;
+}
+.burger {
+  color: grey;
+  margin-right: 25px;
+}
